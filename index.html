@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HotCold</title>
+    <link rel="stylesheet" href="css/hotCold.css" media="screen" title="no title">
+  </head>
+  <body>
+    <p id="titre">Ch<span id="a">a</span>ud ou Fr<span id="o">o</span>id</p>
+
+<!--________________DIV BEGIN________________________ -->
+    <div id="hideGame">
+      <p>Bienvenue dans le jeu du chaud ou froid ! </br>
+      Les règles du jeu sont simples (mais relativement efficaces!),
+      vous devez deviner le nombre choisit par Jeanne, super Intelligence
+       Artificielle ! Attention, elle est douée ... Voulez-vous réellement
+       la défier ?
+      </p>
+      <button type="button" name="button" onclick="start()" id="button1">Start</button>
+    </div>
+
+<!-- _______________DIV GAME_________________________-->
+
+    <div id="game">
+      <div id="divG">
+        <p>Bienvenue dans le HotCold, vous devez essayer
+        de retrouver le nombre auquel je pense, je vous dirai
+        si vous avez chaud, ou froid ! Bonne chance !</br></br>
+        Choisissez un nombre en 1 et 100</p>
+          <form id="form">
+            <input id="push"></br>
+            <button type="button" onclick="gamer()">Essayez</button>
+          </form>
+      </div>
+    </div>
+    <div id="divD">
+        <p id=answer></p>
+      </div>
+<!--____________________DIV WIN______________________ -->
+      <!-- <div id="win">
+
+        <input type="button" value="Rafraichir" id="refresh" onclick="restart()">
+      </div>
+    </div> -->
+
+  <div id="wiin">
+    <p id="pWin"></p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/hotCold.js"></script>
+  </body>
+</html>
